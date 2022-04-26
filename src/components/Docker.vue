@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="docker">
     <!-- 底部導航 -->
     <div class="docker">
       <!-- BEM block__element--modifier -->
@@ -29,7 +29,7 @@ export default {};
 </script>
 
 <style lang="scss" soped>
-@import '../style/index.scss' ;
+@import "../style/index.scss";
 .docker {
   display: flex;
   position: absolute;
