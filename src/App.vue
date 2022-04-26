@@ -1,7 +1,18 @@
 <template>
- <div>123</div>
+  <div>
+    <docker></docker>
+  </div>
 </template>
 
-<style lang="scss">
+<script>
+import Docker from "./components/Docker.vue"
+export default {
+  components:{
+    Docker,
+  }
+}
+</script>
+<style lang="scss" soped>
+
 
 </style>
